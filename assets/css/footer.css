@@ -1,0 +1,118 @@
+body{
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+}
+header{
+    background-color: #0055b7;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.container{
+    margin: auto;
+    width: 1140px;
+    display: flex;
+}
+.caja-01{
+    background-color: #0055b7;
+    width: 20%;
+}
+.caja-02{
+    background-color: #0055b7;
+    width: 60%;
+}
+.caja-03{
+    width: 20%;
+    background-color: #0055b7;
+}
+.menu-principal{
+    float: right;
+    margin-right: 30px;
+    margin-top: 6px;
+}
+.menu{
+    list-style-type: none;
+    overflow: hidden;
+}
+.menu > li{
+    float: left;
+}
+.menu > li > a{
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 16px;
+    color: white;
+    padding: 0 10px 0 10px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+.menu > li > a:hover{
+    font-weight: 500;
+}
+.active > a{
+    font-weight: 500 !important;
+}
+.footer{
+    background-color: #808080;
+    padding: 4em 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+.info{
+    margin: auto;
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+    width: 1140px;
+    list-style: none;
+}
+.ENLACES{
+    width: 40%;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+.ENLACES > ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+.ENLACES > ul > li > a{
+    color: white;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    display: block;
+    margin-bottom: 10px;
+}
+.EMPLEOS{
+    font-family: 'Roboto', sans-serif;
+    width: 40%;
+    color: white;
+
+}
+.EMPLEOS > ul{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+
+}
+.EMPLEOS > ul > li > a{
+    color: white;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 10px;
+}
+.MEDIOS{
+    color: white;
+    width: 100%;
+    max-width: 235px;
+    transform: translate(35px,0px);
+
+}
+.MEDIOS > a{
+    display: inline-block;
+    min-height: 40px;
+    line-height: 100px;
+}
+.MEDIOS > strong{
+    display: block;
+    margin-bottom: 1px;
+}
